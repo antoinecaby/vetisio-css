@@ -1,0 +1,126 @@
+#discover {
+  margin: 0px;
+}
+
+#discover .topbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(90deg, #F1DEDC 2.43%, #F9F0EB 100%);
+  padding: 90px;
+}
+
+#discover .topbar .topbar-logo img {
+  width: 25%;
+  height: auto;
+}
+
+#discover .topbar .topbar-links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#discover .topbar .topbar-links ul li a {
+  text-decoration: none;
+  margin-left: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+#discover .topbar .topbar-links ul li .conseil{
+  color: #4E476D;
+  border: solid 2px #4E476D;
+  padding: 15px 25px 15px 25px;
+  border-radius: 15px;
+}
+
+#discover .topbar .topbar-links ul li .dashboard {
+  color: white;
+  border: solid 2px #4E476D;
+  padding: 15px 25px 15px 25px;
+  border-radius: 15px;
+  background-color: #4E476D;
+}
+
+#discover .img-dogs .twoDogs{
+  width: 100%;
+  height: 1100px;
+}
+
+#discover .phraseaccroche {
+background-color: white;
+margin: 0px 17% 0px 17%;
+z-index: 50;
+padding: 30px 60px 30px 60px;
+}
+
+#discover .phraseaccroche .phraseaccroche-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #4E476D;
+  margin: 0px;
+}
+
+#discover .phraseaccroche .phraseaccroche-text{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  color: #4E476D;
+  opacity: 0.3;
+}
+
+#discover .phraseaccroche .phraseaccroche-start {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4E476D;
+  text-decoration: none;
+  background: #F1DEDC;
+  padding: 20px 50px 20px 50px;
+  text-align: right;
+  right: 0;
+}
+
+#discover .services{
+  background: #F9F0EB;
+}
+
+#discover .services .title-services{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #4E476D;
+}
+
+#discover .services .phrase-services{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+  color: #4E476D;
+}
+
+#discover .services .list-services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#discover .services .list-services{
+
+}
