@@ -133,6 +133,13 @@ padding: 30px 60px 30px 60px;
   list-style: none;
 }
 
+#discover .services .list-services .diffservices-img{
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #discover .services .list-services .diffservices-title{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -170,4 +177,165 @@ padding: 30px 60px 30px 60px;
 #discover .services .button-services{
   display: flex;
   justify-content: center;
+}
+
+#discover .submit{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  background: linear-gradient(90deg, #F1DEDC 2.43%, #F9F0EB 100%);
+  padding: 60px 17% 60px 17%;
+}
+
+#discover .submit .submit-title h3{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #4E476D;
+  margin: 0;
+}
+
+#discover .submit .submit-title p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #4E476D;
+}
+
+#discover .submit .submit-badge ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#discover .submit .submit-badge ul li .submit-badge-img{
+  width: 100%;
+}
+
+#discover .submit .submit-image img{
+  width: 100%;
+}
+
+#discover .submit .submit-text{
+  padding: 30px;
+}
+
+#discover .submit .submit-text h3{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #4E476D;
+  margin: 0;
+}
+
+#discover .submit .submit-text p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  color: #4E476D;
+  opacity: 0.8;
+}
+
+#discover .faq{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  background: #F9F0EB;
+  padding: 60px 10% 60px 10%;
+}
+
+#discover .faq .faq-questions ul{
+  list-style: none;
+  padding: 0;
+}
+
+#discover .faq .faq-questions ul li{
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 15px 30px 15px 30px;
+}
+
+#discover .faq .faq-questions ul li p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  font-feature-settings: 'ss01' on;
+  color: #4E476D;
+}
+
+#discover .faq .faq-text h3{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #4E476D;
+}
+
+#discover .faq .faq-text p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+  color: #4E476D;
+}
+
+#discover .clients{
+  background: linear-gradient(90deg, #F1DEDC 2.43%, #F9F0EB 100%);
+  padding: 100px 22% 60px 22% ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#discover .clients .clients-title h3{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #4E476D;
+  margin: 0;
+}
+
+#discover .clients .clients-title p{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+}
+
+#discover .clients .clients-commentaire{}
+
+#discover .clients .clients-commentaire p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+
+#discover .clients .clients-commentaire img{
+  width: 100%;
 }
