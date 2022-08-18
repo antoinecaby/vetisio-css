@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: linear-gradient(90deg, #F1DEDC 2.43%, #F9F0EB 100%);
-  padding: 90px;
+  padding: 50px 90px 50px 90px;
 }
 
 #discover .topbar .topbar-logo img {
@@ -46,13 +46,13 @@
   background-color: #4E476D;
 }
 
-#discover .img-dogs .twoDogs{
-  width: 100%;
-  height: 1100px;
+#discover .phraseaccroche-background{
+  background-image: url("/Users/monmacbook/Documents/vetisio-css/assets/Images/DeuxChiens.jpeg");
+  padding: 1000px 100px 0px 100px;
 }
 
 #discover .phraseaccroche {
-background-color: white;
+  background: white;
 margin: 0px 17% 0px 17%;
 z-index: 50;
 padding: 30px 60px 30px 60px;
@@ -302,6 +302,7 @@ padding: 30px 60px 30px 60px;
   padding: 100px 22% 60px 22% ;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
 }
 
 #discover .clients .clients-title h3{
@@ -325,17 +326,80 @@ padding: 30px 60px 30px 60px;
   color: #18191F;
 }
 
-#discover .clients .clients-commentaire{}
+#discover .clients .clients-commentaire{
+  background: white;
+  padding: 50px 30px 30px 50px;
+  border-radius: 8px;
+  width: 75%;
+}
 
 #discover .clients .clients-commentaire p{
   font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 32px;
   color: #000000;
 }
 
 #discover .clients .clients-commentaire img{
-  width: 100%;
+  width: 10%;
+  clip-path:ellipse(50% 33%);
+}
+
+#discover .clients .clients-commentaire2{
+  background: white;
+  padding: 50px 30px 30px 50px;
+  border-radius: 8px;
+}
+
+#discover .clients .clients-commentaire2 p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+
+#discover .clients .clients-commentaire2 img{
+  width: 10%;
+  clip-path:ellipse(50% 33%);
+}
+
+#discover .clients .clients-commentaire3{
+  background: white;
+  padding: 50px 30px 30px 50px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+#discover .clients .clients-commentaire3 p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+
+#discover .clients .clients-commentaire3 img{
+  width: 10%;
+  clip-path:ellipse(50% 33%);
+}
+
+#discover .newsletter {
+  background: #F9F0EB;
+  padding: 100px 17% 100px 17%;
+}
+
+#discover .newsletter h3{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 48px;
+  text-align: center;
+  color: #4E476D;
+  margin: 0;
 }
