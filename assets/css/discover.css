@@ -401,5 +401,209 @@ padding: 30px 60px 30px 60px;
   line-height: 48px;
   text-align: center;
   color: #4E476D;
-  margin: 0;
+  margin-bottom: 100px;
+}
+
+#discover form ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#discover form ul li .newsletter-textfield{
+  background: #FFFFFF;
+  border: 1px solid #9F9F9F;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 1.05px;
+  color: #000000;
+  padding: 15px 75px 15px 30px;
+  margin-right: 15px;
+
+}
+
+#discover form ul li .newsletter-submit{
+  background: #4E476D;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.05px;
+  color: #FFFFFF;
+  padding: 15px 55px 15px 55px;
+}
+
+#discover .contact{
+  background: linear-gradient(90deg, #F1DEDC 2.43%, #F9F0EB 100%);
+  padding: 50px 8% 50px 8%;
+}
+
+#discover .contact .contact-box{
+  background: #4E476D;
+  border-radius: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 50px;
+}
+
+#discover .contact .contact-box .contact-content h3{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #F1DEDC;
+}
+
+#discover .contact .contact-box .contact-content p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #F1DEDC;
+}
+
+#discover .contact .contact-box .contact-form {
+  background: #F9F0EB;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+#discover .contact .contact-box .contact-form .contact-form-name {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 3.88889px;
+  text-transform: uppercase;
+  color: #29253B;
+  background: #F1DEDC;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(6.80556px);
+  border-radius: 7.77778px;
+  width: 80%;
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 30px;
+}
+
+#discover .contact .contact-box .contact-form .contact-form-mail {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 3.88889px;
+  text-transform: uppercase;
+  color: #29253B;
+  background: #F1DEDC;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(6.80556px);
+  border-radius: 7.77778px;
+  width: 80%;
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 30px;
+}
+
+#discover .contact .contact-box .contact-form .contact-form-textarea{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 3.88889px;
+  text-transform: uppercase;
+  color: #29253B;
+  background: #F1DEDC;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(6.80556px);
+  border-radius: 7.77778px;
+  width: 80%;
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+#discover .contact .contact-box .contact-form .contact-form-submit{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #29253B;
+  background: linear-gradient(86.33deg, #F1DEDC 5.98%, #E3E5F1 93.99%);
+  border-radius: 14px;
+  width: 80%;
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 30px;
+}
+
+#discover .contact .contact-box .contact-form .first-input{
+  display: flex;
+  justify-content: center;
+}
+
+#discover .contact .contact-box .contact-form .second-input{
+  display: flex;
+  justify-content: center;
+}
+
+#discover .contact .contact-box .contact-form .third-input{
+  display: flex;
+  justify-content: center;
+}
+
+#discover .contact .contact-box .contact-form .fourth-input{
+  display: flex;
+  justify-content: center;
+}
+
+#discover .footer{
+  background: linear-gradient(90deg, #F1DEDC 2.43%, #F9F0EB 100%);
+  padding: 150px 7% 50px 7%;
+}
+
+#discover .footer hr{
+  width: 60%;
+  margin: auto;
+}
+
+#discover .footer .footer-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 150px;
+}
+
+#discover .footer .footer-content .footer-img img{
+  width: 50%;
+}
+
+#discover .footer .footer-content .footer-menu ul{
+  list-style: none;
+  display: block;
+  justify-content: center;
+}
+
+#discover .footer .footer-content .footer-menu ul li{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #29253B;
 }
