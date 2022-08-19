@@ -1,0 +1,36 @@
+#connexion{
+    background: linear-gradient(90deg, #F1DEDC 2.43%, #F9F0EB 100%);
+    padding: 50px 7% 50px 7%;
+}
+
+#connexion .topbar{
+    margin-bottom: 50px;
+}
+
+#connexion .topbar .topbar-logo img{
+    width: 15%;
+}
+
+#connexion .espaceconnexion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 h3{
+    font-family: 'Nunito Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #4E476D;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 p{
+    font-family: 'Nunito Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4E476D;
+}
