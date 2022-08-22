@@ -4,17 +4,36 @@
 }
 
 #connexion .topbar{
-    margin-bottom: 50px;
+    margin-bottom: 225px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #connexion .topbar .topbar-logo img{
     width: 15%;
 }
 
+#connexion .topbar .topbar-img img {
+  width: 30%;
+  position: absolute;
+  top: -120px;
+  right: -50px;
+  border-radius: 0% 0% 0% 80%;
+
+}
+
 #connexion .espaceconnexion{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
+}
+
+#connexion .espaceconnexion .espaceconnexion1{
+  border-right: dotted 1px;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 form{
+  padding-left: 25%;
 }
 
 #connexion .espaceconnexion .espaceconnexion1 h3{
@@ -24,6 +43,8 @@
     font-size: 36px;
     line-height: 49px;
     color: #4E476D;
+    text-align: center;
+    margin: 0;
 }
 
 #connexion .espaceconnexion .espaceconnexion1 p{
@@ -33,4 +54,107 @@
     font-size: 12px;
     line-height: 16px;
     color: #4E476D;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 form .mail-label{
+  font-family: 'Nunito Sans',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #29253B;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 form .mail-input{
+  font-family: 'Nunito Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #29253B;
+  border-radius: 7px;
+  background: #F1DEDC;
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+
+#connexion .espaceconnexion .espaceconnexion1 form .password-label {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #29253B;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 form .password-input {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #29253B;
+  border-radius: 7px;
+  background: #F1DEDC;
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 form .remind-me-label {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #29253B;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 form .remind-me-label-2 {
+  font-family: 'Nunito Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A1A1A1;
+}
+
+#connexion .espaceconnexion .espaceconnexion1 form .submit-input{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  color: #F1DEDC;
+  background: #4E476D;
+  border-radius: 6px;
+  width: 70%;
+  padding: 10px;
+}
+
+#connexion .espaceconnexion .espaceconnexion2 {
+  text-align: center;
+  padding-right: 25%;
+}
+
+#connexion .espaceconnexion .espaceconnexion2 h3{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 57.7056px;
+  line-height: 109%;
+  color: #4E476D;
+}
+
+#connexion .espaceconnexion .espaceconnexion2 p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5778px;
+  line-height: 180%;
+  color: #4E476D;
 }
