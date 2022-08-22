@@ -1,0 +1,81 @@
+#addKinfolk{
+    background: #F1DEDC;
+    padding: 50px 7% 50px 7%;
+}
+
+#addKinfolk .topbar{
+    margin-bottom: 50px;
+}
+
+#addKinfolk .topbar .topbar-logo img{
+    width: 15%;
+}
+
+#addKinfolk .content{
+    text-align: center;
+}
+
+#addKinfolk .content h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+    text-align: center; 
+    color: #4E476D;
+}
+
+#addKinfolk .content p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #4E476D;  
+}
+
+#addKinfolk .content form .nom-label{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4E476D;
+}
+
+#addKinfolk .content form .nom-input{
+    background: rgba(255, 255, 255, 0.37);
+    padding: 10px;
+    width: 15%;
+}
+
+#addKinfolk .content form .prenom-input{
+    background: rgba(255, 255, 255, 0.37);
+    padding: 10px;
+    width: 15%;
+}
+
+#addKinfolk .content form .mail-input{
+    background: rgba(255, 255, 255, 0.37);
+    padding: 10px;
+    width: 15%;
+}
+
+#addKinfolk .content form .prenom-label{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4E476D;
+}
+
+#addKinfolk .content form .mail-label{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4E476D;
+}
