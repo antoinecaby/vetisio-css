@@ -1,0 +1,94 @@
+#bienvenue{
+    background: #F1DEDC;
+    padding: 50px 7% 50px 7%;
+}
+
+#bienvenue .topbar{
+    margin-bottom: 50px;
+}
+
+#bienvenue .topbar .topbar-logo img{
+    width: 15%;
+}
+
+#bienvenue .content{
+    text-align: center;
+}
+
+#bienvenue .content .content-img{
+    width: 20%;
+}
+
+#bienvenue .content h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #4E476D;
+}
+
+#bienvenue .content p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #4E476D;
+    margin-bottom: 75px;
+}
+
+#bienvenue .content .complete-family{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bienvenue .content .complete-family .add-pet a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #797297;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+}
+
+#bienvenue .content .complete-family .add-kinfolk a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #797297;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+}
+
+#bienvenue .content .start{
+    margin-top: 75px;
+}
+
+#bienvenue .content .start a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    color: #29253B;
+    text-decoration: none;
+    background: linear-gradient(89.84deg, #F1DEDC 11.21%, #CEC4D6 89.37%);
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+}
