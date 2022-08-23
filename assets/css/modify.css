@@ -1,0 +1,113 @@
+#modify {
+  background: #F1DEDC;
+  padding: 50px 7% 50px 7%;
+}
+
+#modify .topbar {
+  margin-bottom: 100px;
+}
+
+#modify .topbar .topbar-logo img {
+  width: 15%;
+}
+
+#modify .content h3{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #29253B;
+  margin: 0 0 15px 0;
+  padding-left: 10px;
+}
+
+#modify .content{
+  padding: 0% 13% 0% 13%;
+}
+
+#modify .content .modifs{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 50px;
+}
+
+#modify .content .modifs .modifs-form{
+  background: #F9F0EB;
+  border: 2px solid #29253B;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+#modify .content .modifs .modifs-form .label-1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.6667px;
+  line-height: 17px;
+  letter-spacing: 3.88889px;
+  text-transform: uppercase;
+  color: #29253B;
+}
+
+#modify .content .modifs .modifs-form .input-1{
+  background: #F1DEDC;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(6.80556px);
+  border-radius: 7.77778px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 15px;
+  border: none;
+}
+
+#modify .content .modifs .modifs-form .form-divs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+#modify .content .modifs .modifs-form .form-divs .form-div-1 .label-2{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.6667px;
+  line-height: 17px;
+  letter-spacing: 3.88889px;
+  text-transform: uppercase;
+  color: #29253B;
+}
+
+#modify .content .modifs .modifs-form .form-divs .form-div-1 .input-2{
+  background: #F1DEDC;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(6.80556px);
+  border-radius: 7.77778px;
+  margin-top:10px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 15px;
+  border: none;
+}
+
+#modify .content .modifs .modifs-form .form-submit{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #29253B;
+  background: linear-gradient(86.33deg, #F1DEDC 5.98%, #E3E5F1 93.99%);
+  border-radius: 14px;
+  width: 100%;
+  border: none;
+  padding: 15px;
+}
+
+#modify .content .modifs .modifs-img .imgChien{
+  width: 100%;
+  border-radius: 10px;
+}
