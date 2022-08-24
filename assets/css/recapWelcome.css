@@ -1,6 +1,6 @@
 #recapWelcome{
     background: #F1DEDC;
-  padding: 50px 7% 50px 7%;
+  padding: 35px 7% 50px 7%;
 }
 
 #recapWelcome .topbar {
@@ -14,15 +14,20 @@ width: 15%;
 #recapWelcome .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
+    grid-gap: 75px 100px;
 }
 
 #recapWelcome .content .img img{
-    width: 75%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+}
+
+#recapWelcome .content .recapAnimal{
+    padding-right: 20%;
+    padding-left: 5%;
 }
 
 #recapWelcome .content .recapAnimal h3{
@@ -50,6 +55,7 @@ width: 15%;
     border: 1px solid #4E476D;
     border-radius: 10px;
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 #recapWelcome .content .recapAnimal .infosAnimal p{
@@ -61,6 +67,7 @@ width: 15%;
     text-align: center;
     letter-spacing: 0.02em;
     color: #29253B;
+    margin: 0;
 }
 
 #recapWelcome .content .recapAnimal .buttons{
@@ -168,4 +175,62 @@ width: 15%;
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
+}
+
+#recapWelcome .content .specialistes{
+
+}
+
+#recapWelcome .content .specialistes h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px; 
+    color: #4E476D;
+}
+
+#recapWelcome .content .specialistes .subtitle{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#recapWelcome .content .specialistes .specialistes-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos img{
+    width: 100%;
+}
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background {
+    background: #FFFFFF;
+    padding: 15px;
+}
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background .specialiste-name{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4E476D;
+    margin: 0;
+}
+
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background .specialiste-profession{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4E476D;
 }
