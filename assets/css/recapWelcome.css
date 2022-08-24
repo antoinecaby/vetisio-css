@@ -1,0 +1,236 @@
+#recapWelcome{
+    background: #F1DEDC;
+  padding: 35px 7% 50px 7%;
+}
+
+#recapWelcome .topbar {
+    margin-bottom: 85px;
+  }
+  
+#recapWelcome .topbar .topbar-logo img {
+width: 15%;
+}
+
+#recapWelcome .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 75px 100px;
+}
+
+#recapWelcome .content .img img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#recapWelcome .content .recapAnimal{
+    padding-right: 20%;
+    padding-left: 5%;
+}
+
+#recapWelcome .content .recapAnimal h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #4E476D;
+    margin: 0;
+}
+
+#recapWelcome .content .recapAnimal p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4E476D;
+}
+
+#recapWelcome .content .recapAnimal .infosAnimal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #4E476D;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#recapWelcome .content .recapAnimal .infosAnimal p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #29253B;
+    margin: 0;
+}
+
+#recapWelcome .content .recapAnimal .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#recapWelcome .content .recapAnimal .buttons .button-1 a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+    background: #4E476D;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
+}
+
+
+#recapWelcome .content .recapAnimal .buttons .button-2 a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    color: #4E476D;
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 3px solid #4E476D;
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
+}
+
+#recapWelcome .content .proches{
+    padding: 0 10% 0 10%;
+    border-right: dotted 1px black;
+}
+
+#recapWelcome .content .proches h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4E476D;
+}
+
+#recapWelcome .content .proches p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E476D;
+}
+
+#recapWelcome .content .proches .proches-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#recapWelcome .content .proches .proches-list .proches-infos{
+    background: #4E476D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#recapWelcome .content .proches .proches-list .proches-infos h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
+    margin: 0;
+}
+
+#recapWelcome .content .proches .proches-list .proches-infos p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    color: #F1DEDC;
+    padding: 5px;
+}
+
+#recapWelcome .content .proches .proches-list .proches-infos .lien{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4E476D;
+    background: #F1DEDC;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#recapWelcome .content .specialistes{
+
+}
+
+#recapWelcome .content .specialistes h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px; 
+    color: #4E476D;
+}
+
+#recapWelcome .content .specialistes .subtitle{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#recapWelcome .content .specialistes .specialistes-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos img{
+    width: 100%;
+}
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background {
+    background: #FFFFFF;
+    padding: 15px;
+}
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background .specialiste-name{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4E476D;
+    margin: 0;
+}
+
+
+#recapWelcome .content .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background .specialiste-profession{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4E476D;
+}
