@@ -44,29 +44,321 @@
     color: #F1DEDC;
     padding-left: 20%;
     margin-bottom: 20%;
+    margin-bottom: 400px;
 }
 
 #dashboard .sidebar .sidebar-sommaire li{
     margin-bottom: 30px;
 }
 
-#dashboard .content .topbar-content {
+#dashboard .sidebar .sidebar-iconelist{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     list-style: none;
 }
 
-#dashboard .content .topbar-content li .topbar-img{
+#dashboard .sidebar .sidebar-iconelist li img{
     width: 50%;
 }
 
+#dashboard .sidebar h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
+    text-align: center;
+}
+
+#dashboard .sidebar .contact{
+    width: 25%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#dashboard .sidebar .question{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
+    text-align: center;
+}
+
+#dashboard .content .topbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0px 0px 150px 0px;
+    padding: 0px 50px 0px 50px;
+}
+
+#dashboard .content .topbar-content li .topbar-img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dashboard .content .topbar-content li .searchbar{
+    background: #F2F5FA;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 300px 15px 300px;
+}
+
+
 #dashboard .content .topbar-content li h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif ;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     letter-spacing: 0.02em;
     color: #29253B; 
+}
+
+#dashboard .content .categories{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 0 30px 0 30px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#dashboard .content .categories .experts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #F1DEDC;
+    border-radius: 10px;
+}
+
+#dashboard .content .categories .experts .experts-img img{
+    width: 73%;
+
+}
+
+#dashboard .content .categories .experts .experts-content p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding: 15px;
+}
+
+#dashboard .content .categories .sante{
+    background: #F9F0EB;
+    border-radius: 10px;
+}
+
+#dashboard .content .categories .sante h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#dashboard .content .categories .sante img{
+    width: 35%;
+}
+
+#dashboard .content .categories .assurance{
+    background: #E3E5F1;
+    border-radius: 10px;
+}
+
+#dashboard .content .categories .assurance h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#dashboard .content .categories .assurance img{
+    width: 35%;
+}
+
+#dashboard .content .categories .nutrition{
+    background: #F9F0EB;
+    border-radius: 10px;
+}
+
+#dashboard .content .categories .nutrition h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#dashboard .content .categories .nutrition img{
+    width: 35%;
+}
+
+#dashboard .content .informations{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 0 30px 0 30px;
+}
+
+#dashboard .content .informations .posts-list{
+    border-right: dashed 1px black;
+}
+
+#dashboard .content .informations .posts-list h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #29253B;
+}
+
+#dashboard .content .informations .posts-list .posts{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 15px;
+    margin-bottom: 15px;
+}
+
+#dashboard .content .informations .posts-list .posts .post-img img{
+    width: 95%;
+}
+
+#dashboard .content .informations .posts-list .posts .post-content h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #29253B;
+}
+
+#dashboard .content .informations .posts-list .posts .post-content p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.02em; 
+    color: #988280; 
+}
+
+#dashboard .content .informations .proches{
+    border-right: dashed 1px black;
+    padding: 30px 30px 30px 0;
+}
+
+#dashboard .content .informations .proches h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #29253B;
+}
+
+#dashboard .content .informations .proches .proches-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#dashboard .content .informations .proches .proches-list .proches-infos{
+    background: #4E476D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#dashboard .content .informations .proches .proches-list .proches-infos h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
+    margin: 0;
+}
+
+#dashboard .content .informations .proches .proches-list .proches-infos p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    color: #F1DEDC;
+    padding: 5px;
+}
+
+#dashboard .content .informations .proches .proches-list .proches-infos .lien{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4E476D;
+    background: #F1DEDC;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#dashboard .content .informations .services-list{}
+
+#dashboard .content .informations .services-list h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #29253B;
+}
+
+#dashboard .content .informations .services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    background: #29253B;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#dashboard .content .informations .services .service-img img{
+    width: 100%;
+}
+
+#dashboard .content .informations .services .service-content h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
 }
