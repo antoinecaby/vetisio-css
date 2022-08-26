@@ -1,0 +1,259 @@
+#owner{
+    background:#F1DEDC ;
+    padding: 50px 7% 50px 7%;
+}
+
+#owner .topbar{
+    margin-bottom: 50px;
+}
+
+#owner .topbar .topbar-logo img{
+    width: 15%;
+}
+
+#owner .content{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-gap: 75px;
+}
+
+#owner .sidebar{
+    background: #4E476D;
+    border-radius: 10px;
+}
+
+#owner .content .sidebar h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #F1DEDC;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#owner .content .sidebar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+#owner .content .sidebar ul li{
+    width: 33%;
+}
+
+#owner .content .sidebar ul li img{
+    width: 50%;
+}
+
+#owner .content .sidebar ul li p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
+}
+
+#owner .content .sidebar .sidebar-iconelist{
+    margin-top: 500px;
+}
+
+#owner .content .sidebar .sidebar-iconelist li img{
+    width: 50%;
+}
+
+#owner .content .sidebar .contact{
+    width: 25%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#owner .content .sidebar .question{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
+    text-align: center;
+}
+
+#owner .content .informations .animaux h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    color: #4E476D;
+}
+
+#owner .content .informations .animaux .animaux-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#owner .content .informations .animaux .animaux-list .animaux-card{
+    background-image: url("/Users/monmacbook/Documents/vetisio-css/assets/Images/chienLit.jpeg");
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#owner .content .informations .animaux .animaux-list .animaux-card .animaux-name{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 26px;
+    color: #F1DEDC;
+    margin-top: 100px;
+}
+
+#owner .content .informations .animaux .animaux-list .animaux-card .animaux-profil{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    color: #F1DEDC;
+    background: #4E476D;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#owner .content .informations .specialistes h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px; 
+    color: #4E476D;
+}
+
+#owner .content .informations .specialistes .subtitle{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#owner .content .informations .specialistes .specialistes-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#owner .content .informations .specialistes .specialistes-list .specialistes-infos img{
+    width: 100%;
+}
+
+#owner .content .informations .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background {
+    background: #FFFFFF;
+    padding: 15px;
+}
+
+#owner .content .informations .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background .specialiste-name{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4E476D;
+    margin: 0;
+}
+
+
+#owner .content .informations .specialistes .specialistes-list .specialistes-infos .specialistes-infos-background .specialiste-profession{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4E476D;
+}
+
+#owner .content .informations .proches h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    color: #4E476D;
+}
+
+#owner .content .informations .proches h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4E476D;
+}
+
+#owner .content .informations .proches p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E476D;
+}
+
+#owner .content .informations .proches .proches-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 15px;
+}
+
+#owner .content .informations .proches .proches-list .proches-infos{
+    background: #4E476D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#owner .content .informations .proches .proches-list .proches-infos h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #F1DEDC;
+    margin: 0;
+}
+
+#owner .content .informations .proches .proches-list .proches-infos p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    color: #F1DEDC;
+    padding: 5px;
+}
+
+#owner .content .informations .proches .proches-list .proches-infos .lien{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4E476D;
+    background: #F1DEDC;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
