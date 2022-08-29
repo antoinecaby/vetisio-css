@@ -1,0 +1,79 @@
+#map {
+  background: #F1DEDC;
+  padding: 50px 7% 50px 7%;
+}
+
+#map .topbar {
+  margin-bottom: 50px;
+}
+
+#map .topbar .topbar-logo img {
+  width: 15%;
+}
+
+#map .content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+#map .content .specialistes-list .specialistes{
+  display: grid;
+  grid-template-columns: 33% 47% 20%;
+  grid-gap: 15px;
+  background: #29253B;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#map .content .specialistes-list .specialistes .specialistes-left img{
+  width: 90%;
+  border-radius: 10px 0 0 10px;
+}
+
+#map .content .specialistes-list .specialistes .specialistes-mid h3{
+  font-family: 'Nunito Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #F1DEDC;
+}
+
+#map .content .specialistes-list .specialistes .specialistes-mid p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #F1DEDC;
+}
+
+#map .content .specialistes-list .specialistes .specialistes-right{
+  text-align: center;
+  padding-top: 120px;
+}
+
+#map .content .specialistes-list .specialistes .specialistes-right a{
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #29253B;
+  background: #F1DEDC;
+  border-radius: 22px;
+  padding: 10px;
+}
+
+#map .content .map{
+  text-align: center;
+  border-left: 1px solid #29253B;
+}
+
+#map .content .map img{
+  width: 70%;
+  height: 100%;
+}
