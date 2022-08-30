@@ -1,0 +1,75 @@
+#modify-owner {
+    background: #F1DEDC;
+    padding: 50px 7% 50px 7%;
+}
+
+#modify-owner .topbar {
+margin-bottom: 100px;
+}
+
+#modify-owner .topbar .topbar-logo img {
+width: 15%;
+}
+
+#modify-owner .content{
+    padding: 0 25% 0 25%;
+}
+
+#modify-owner .content h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #29253B;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#modify-owner .content .content-form{
+    background: #F9F0EB;
+    border: 2px solid #29253B;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#modify-owner .content .content-form form .label{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3.88889px;
+    text-transform: uppercase;
+    color: #29253B;
+}
+
+#modify-owner .content .content-form form .input{
+    background: #F1DEDC;
+    border-radius: 7.77778px;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    border: none;
+    margin-bottom: 30px;
+}
+
+#modify-owner .content .content-form form .semi-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#modify-owner .content .content-form form .submit{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #29253B;
+    background: linear-gradient(86.33deg, #F1DEDC 5.98%, #E3E5F1 93.99%);
+    border-radius: 14px;
+    border: none;
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
