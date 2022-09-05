@@ -1,0 +1,72 @@
+#PA2{
+    background: linear-gradient(90deg, #DCE6F1 2.43%, #BACFE8 100%);
+    padding: 50px 7% 50px 7%;
+}
+
+#PA2 .topbar{
+    margin-bottom: 50px;
+}
+
+#PA2 .topbar .topbar-logo img{
+    width: 15%;
+}
+
+#PA2 .content h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #42506B;
+    margin-top: 100px;
+}
+
+#PA2 .content .text{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #42506B;
+    margin-bottom: 150px;
+}
+
+#PA2 .content .categories-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 45px 30px;
+    padding: 0 12% 0 12%;
+}
+
+#PA2 .content .categories-list .categories{
+    border: 3px solid #42506B;
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+}
+
+#PA2 .content .categories-list a{
+    text-decoration: none;
+}
+
+#PA2 .content .categories-list a:hover{
+    background: #EEF4FE;
+}
+
+#PA2 .content .categories-list .categories img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PA2 .content .categories-list .categories .categories-name{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #42506B;
+}

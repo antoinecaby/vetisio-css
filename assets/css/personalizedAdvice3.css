@@ -1,0 +1,54 @@
+#PA3{
+    background: linear-gradient(90deg, #DCE6F1 2.43%, #BACFE8 100%);
+    padding: 50px 7% 50px 7%;
+}
+
+#PA3 .topbar{
+    margin-bottom: 50px;
+}
+
+#PA3 .topbar .topbar-logo img{
+    width: 15%;
+}
+
+#PA3 .content h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #42506B;
+    margin-top: 100px;
+}
+
+#PA3 .content .text{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #42506B;
+    margin-bottom: 150px;
+}
+
+#PA3 .content .checkbox-list{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1fr;
+    grid-gap: 15px;
+}
+
+#PA3 .content .checkbox-list .checkbox-list-1 .checkbox{
+    border: 2px solid #404873;
+    background-color: red;
+}
+
+#PA3 .content .checkbox-list .checkbox-label{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #404873;
+}
